@@ -117,7 +117,9 @@
             right: 0;
             width: 90%;
             height: 100%;
-            padding: 5rem;
+            text-align: center;
+            margin: 20px 0 0 ;
+             padding: 10px 0;
             background-color: var(--colortext);
             transition: 1s;
             backdrop-filter: blur(9px);
@@ -125,7 +127,14 @@
     }
     .nav_item{
         margin-bottom: var(--marg4);
+        display: inline-block;
+        padding: 5px 5px;
     }
+    .nav_list{
+   list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
     .nav_link{
         position: relative;
         color: var(--noir);
