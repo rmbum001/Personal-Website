@@ -115,9 +115,9 @@
             position: fixed;
             top: var(--header-height);
             right: 0;
-            width: 50%;
+            width: 90%;
             height: 100%;
-            padding: 1.9rem;
+            padding: 5rem;
             background-color: var(--colortext);
             transition: 1s;
             backdrop-filter: blur(9px);
